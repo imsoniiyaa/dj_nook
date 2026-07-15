@@ -1,17 +1,31 @@
-# dj_nook
+# DJ Nook 🎵
 
-A new Flutter project.
+**DJ Nook** is a cute, tiny music buddy app exclusively for macOS, designed to help with workflow and provide comfort through stimming.
 
-## Getting Started
+It stays always on top of your workspace, allowing you to see what you're listening to and enjoy watching Nook groove while you work.
 
-This project is a starting point for a Flutter application.
+## ✨ Key Features
+- **Always on Top**: Nook stays on top of any app you are currently using.
+- **Smart Stimming**: Dynamic animations of Nook that change based on your music status (playing/napping).
+- **System Theme Sync**: The UI theme (speech bubbles) automatically adjusts to your macOS Dark/Light mode settings.
+- **Simple Control**: Switch music sources (Spotify, Apple Music) and skip tracks easily.
+- **Customizable**: Uses a transparent background to blend naturally with your desktop environment.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
+- **Framework**: Flutter
+- **Platform**: macOS (Desktop)
+- **Key Packages**: 
+  - `window_manager`: For managing desktop window properties and the "always on top" feature.
+  - `provider`: For state management.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- macOS
+- Flutter SDK (latest version recommended)
+- Xcode (for macOS development environment)
+
+### Run Project
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/imsoniiya/dj_nook.git](https://github.com/imsoniiya/dj_nook.git)
